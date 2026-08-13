@@ -90,12 +90,15 @@ Additional dependencies required by individual notebooks are installed or import
 
 ## Datasets
 
-The datasets are not redistributed in this repository. They should be obtained from their official sources:
+Due to dataset licensing restrictions, raw dataset files are **not included** in this repository. Please obtain them from their official sources:
 
 - **ExDark:** https://github.com/cs-chan/Exclusively-Dark-Image-Dataset
-- **nuScenes:** https://www.nuscenes.org/nuscenes
-- **MS2:** https://github.com/UkcheolShin/MS2-MultiSpectralStereoDataset
-- **MIT-Adobe FiveK:** https://data.csail.mit.edu/graphics/fivek/
+
+- **nuScenes-Night:** Raw nuScenes data is available from https://www.nuscenes.org/nuscenes. The pre-processed nighttime subset and LiDAR-derived depth ground truth used in this project were obtained via the STEPS repository: https://github.com/ucaszyp/STEPS
+
+- **MS2 Road3:** https://github.com/UkcheolShin/MS2-MultiSpectralStereoDataset
+
+- **MIT-Adobe FiveK:** The full dataset is described at https://data.csail.mit.edu/graphics/fivek/. A preprocessed subset used for training/testing (Google Drive / Baidu Drive links) is provided via the LLFormer official repository: https://github.com/TaoWangzj/LLFormer
 
 Dataset paths in the notebooks should be updated to match the user's local or Kaggle environment.
 
