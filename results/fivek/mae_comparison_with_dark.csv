@@ -1,0 +1,5 @@
+pipeline,better_than_dark,evaluated_images,worse_or_equal_to_dark
+clahe,35,100,65
+gamma,54,100,46
+llformer,65,100,35
+msr,33,100,67
