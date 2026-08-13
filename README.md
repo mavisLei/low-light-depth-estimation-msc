@@ -1,7 +1,7 @@
 # Evaluating the Impact of Low-Light Image Enhancement on Monocular Depth Estimation Using DepthAnythingV2
 
-MSc Dissertation Project  
-School of Computer Science, University of Leeds, 2025/2026
+**Author:** [Your Full Name]  
+MSc Dissertation Project — School of Computer Science, University of Leeds, 2025/2026
 
 This repository contains the implementation and experimental evaluation accompanying the MSc dissertation of the same title. The project investigates whether low-light image enhancement can improve the predictions of a fixed, pre-trained monocular depth estimator, DepthAnythingV2, across multiple datasets and evaluation conditions.
 
